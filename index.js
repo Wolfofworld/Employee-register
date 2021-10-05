@@ -59,7 +59,7 @@ app.delete('/home/:id',async (req,res)=>{
 function sendemail(email,cinh,cinm){
     const sgMail=require('@sendinblue/mail');
    const  sendinblue='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';
-  sgMail.setApiKey(sendgrid);
+  sgMail.setApiKey(sendinblue);
   let m=cinm.toString();
   let h=cinh.toString();;
   if(cinm<=9){
