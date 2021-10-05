@@ -7,7 +7,7 @@ const msg1 = {
   to: mail, 
   from: {
     name: 'Visitor tracking system',
-    email: 'abhishekgautam388@gmail.com'
+    email: 'sanyamail.71q6l@simplelogin.co'
   }, 
   subject: 'Greetings of the day!',
   text: `Hey ${name},You just have checked ${check} to the premises`,
@@ -18,7 +18,7 @@ const msg2 = {
   to: mail, 
   from: {
     name: 'Visitor tracking system',
-    email: 'abhishekgautam388@gmail.com'
+    email: 'sanyamail.71q6l@simplelogin.co'
   }, 
   subject: 'Greetings of the day!',
   text: `Hey ${name},You just have checked ${check} the premises. Thanks for visiting. Have a nice day!`,
