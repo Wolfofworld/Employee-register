@@ -99,6 +99,6 @@ function sendexmail(email,couth,coutm){
   sgMail.send(msg);
 }
 
-app.listen(3000,(req,res)=>{
-    console.log("UP AT 3000");
-})
+app.listen(process.env.PORT || 3000,()=>{
+    console.log('server running  at http://localhost:3000/');
+});
